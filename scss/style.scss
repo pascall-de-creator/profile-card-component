@@ -6,8 +6,8 @@
     font-size: 18px;
 }
 p, label{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 1rem;
     color: $Very-dark-desaturated-blue;
 }
@@ -17,6 +17,7 @@ p{
 label{
     font-size: 14px;
     font-weight: 400;
+    margin-top: 9px;
     color: $Dark-grayish-blue;
 }
 body{
@@ -44,6 +45,7 @@ body{
     background-color: $primary-color-white;
     border-radius: 13px;
     margin: auto auto auto auto;
+    box-shadow: 3px 4px 44px -5px rgba(0, 0, 0, 0.25);
 
     .user-details {
         margin-top: 75px;
@@ -52,12 +54,12 @@ body{
     .user-details{
         label{
             margin-left: 9px;
-            margin-top: 9px;
+            margin-top: 0px;
         }
     }
     .bg-pattern-card{
         width: 100%;
-        height: 120px;
+        height: 140px;
         border-radius: 13px 13px 0px 0px;
         background-image: url($bg-pattern-card);
     }
@@ -70,7 +72,7 @@ body{
         position: relative;
         border-radius: 50%;
         left: 121px;
-        top: 75px
+        top: 95px
     }
     .insight {
         width: 248px;
