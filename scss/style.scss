@@ -1,0 +1,77 @@
+@import "utile";
+@import "config";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: Kumbh Sans;
+    font-size: 18px;
+}
+p, label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+p{
+    font-weight: 700;
+}
+label{
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    background-color: $Dark-cyan;
+}
+.card{
+    width: 300px;
+    height: max-content;
+    background-color: $primary-color-white;
+    border-radius: 13px;
+    margin: auto auto 20px auto;
+    padding: 0px 0px 20px 0px;
+
+    .user-details {
+        margin-top: 75px;
+        margin-bottom: 10px;
+    }
+    .user-details{
+        label{
+            margin-left: 6px;
+        }
+    }
+    .bg-pattern-card{
+        width: 100%;
+        height: 120px;
+        border-radius: 13px 13px 0px 0px;
+        background-image: url("./../images/bg-pattern-card.svg");
+    }
+    
+    .avatar {
+        width: 96px;
+        height: 96px;
+        background-image: url("../images/image-victor.jpg");
+        position: relative;
+        border-radius: 50%;
+        left: 100.5px;
+        top: 75px
+    }
+    .insight {
+        width: 206px;
+        height: 47px;
+        justify-content: space-between;
+        margin: 20px auto 0px auto;
+    }
+    hr {
+        color: $Dark-grayish-blue;
+    }
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{ 
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}

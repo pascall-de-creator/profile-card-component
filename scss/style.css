@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+}
+
+p, label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 700;
+}
+
+label {
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  background-color: #19a2ae;
+}
+
+.card {
+  width: 300px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: white;
+  border-radius: 13px;
+  margin: auto auto 20px auto;
+  padding: 0px 0px 20px 0px;
+}
+
+.card .user-details {
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+.card .user-details label {
+  margin-left: 6px;
+}
+
+.card .bg-pattern-card {
+  width: 100%;
+  height: 120px;
+  border-radius: 13px 13px 0px 0px;
+  background-image: url("./../images/bg-pattern-card.svg");
+}
+
+.card .avatar {
+  width: 96px;
+  height: 96px;
+  background-image: url("../images/image-victor.jpg");
+  position: relative;
+  border-radius: 50%;
+  left: 100.5px;
+  top: 75px;
+}
+
+.card .insight {
+  width: 206px;
+  height: 47px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px auto 0px auto;
+}
+
+.card hr {
+  color: #6a6f81;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
