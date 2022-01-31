@@ -1,4 +1,3 @@
-@import "utile";
 @import "config";
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
@@ -15,50 +14,61 @@ p{
     font-weight: 700;
 }
 label{
+    font-size: 14px;
     font-weight: 400;
+    color: $Very-dark-desaturated-blue;
 }
 body{
     margin: 0;
     background-color: $Dark-cyan;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card{
-    width: 300px;
-    height: max-content;
+    width: 350px;
+    height: 374px;
     background-color: $primary-color-white;
     border-radius: 13px;
-    margin: auto auto 20px auto;
-    padding: 0px 0px 20px 0px;
+    margin: auto auto auto auto;
 
     .user-details {
         margin-top: 75px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     .user-details{
         label{
-            margin-left: 6px;
+            margin-left: 9px;
+            margin-top: 9px;
         }
     }
     .bg-pattern-card{
         width: 100%;
         height: 120px;
         border-radius: 13px 13px 0px 0px;
-        background-image: url("./../images/bg-pattern-card.svg");
+        background-image: url($bg-pattern-card);
     }
     
     .avatar {
         width: 96px;
         height: 96px;
-        background-image: url("../images/image-victor.jpg");
+        padding: 5px;
+        background: white;
         position: relative;
         border-radius: 50%;
-        left: 100.5px;
+        left: 121px;
         top: 75px
     }
     .insight {
-        width: 206px;
+        width: 248px;
         height: 47px;
         justify-content: space-between;
-        margin: 20px auto 0px auto;
+        margin: 25px auto 25px auto;
+
+        .insight__label {
+            font-size: 11px;
+        }
     }
     hr {
         color: $Dark-grayish-blue;

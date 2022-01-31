@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="scss/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/dist/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/dist/css/style.min.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
   <div class="card">
     <div class="bg-pattern-card">
-      <div class="avatar"></div>
+      <img src="/dist/images/image-victor.jpg" alt="Profile Avatar" class="avatar">
     </div>
     <div class="content">
 
@@ -20,27 +20,27 @@
         <p>Victor Crest</p>
         <Label>26</Label>
       </div>
-      <p>London</p>
+      <label>London</label>
     </div>
     <hr>
     <div class="insight flex row">
       <div class="flex column">
         <p>80K</p>
-        <label for="">Followers</label>
+        <label class="insight__label">Followers</label>
       </div>
       <div class="flex column">
         <p>803K</p>
-        <label for="">Likes</label>
+        <label class="insight__label">Likes</label>
       </div>
       <div class="flex column">
         <p>1.4K</p>
-        <label for="">Photos</label>
+        <label class="insight__label">Photos</label>
       </div>
     </div>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Pascall de creator</a>.
+    Coded by <a href="https://github.com/pascall-de-creator/profile-card-component">Pascall de creator</a>.
   </div>
 </body>
 </html>
