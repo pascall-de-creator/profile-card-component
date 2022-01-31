@@ -25,6 +25,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+}
+.pattern:nth-child(1){
+    position: absolute;
+    left: -500px;
+    top: -90%;
+}
+.pattern:nth-child(2){
+    position: absolute;
+    left: 50%;
+    top: 500px;
 }
 .card{
     width: 350px;
