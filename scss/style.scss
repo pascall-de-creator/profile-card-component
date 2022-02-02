@@ -15,7 +15,7 @@ p{
     font-weight: 700;
 }
 label{
-    font-size: 14px;
+    margin-top: 4px;
     font-weight: 400;
     margin-top: 9px;
     color: $Dark-grayish-blue;
@@ -48,7 +48,7 @@ body{
     box-shadow: 3px 4px 44px -5px rgba(0, 0, 0, 0.25);
 
     .user-details {
-        margin-top: 75px;
+        margin-top: 72px;
         margin-bottom: 25px;
     }
     .user-details{
@@ -72,20 +72,24 @@ body{
         position: relative;
         border-radius: 50%;
         left: 121px;
-        top: 95px
+        top: 87px;
     }
     .insight {
         width: 248px;
         height: 47px;
         justify-content: space-between;
         margin: 25px auto 25px auto;
+        padding: 0px 47px;
 
         .insight__label {
             font-size: 11px;
         }
     }
+    
     hr {
-        color: $Dark-grayish-blue;
+        height: 1px;
+        background-color: #E7E7E7;
+        border: none;
     }
 }
 .flex{
@@ -98,4 +102,22 @@ body{
 }
 .column{
     flex-direction: column;
+}
+footer {
+    width: max-content;
+    height: max-content;
+    position: fixed;
+    bottom: 0px;
+    border-radius: 9px 9px 0px 0px;
+    background-color: #444;
+    color: white;
+
+    .attribution {
+        padding: 20px;
+        font-size: 13px; 
+        text-align: center; 
+    }
+    .attribution a, p{ 
+        color: hsl(228, 45%, 44%); 
+    }
 }
