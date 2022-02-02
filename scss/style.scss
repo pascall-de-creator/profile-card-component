@@ -67,9 +67,15 @@ body::after{
         margin-bottom: 25px;
     }
     .user-details{
-        span{
+        #num {
+            font-size: 18px;
             margin-left: 9px;
-            margin-top: 9px;
+            margin-top: 0px;
+        }
+        span{
+            margin-left: 0px;
+            margin-top: 4px;
+            margin-bottom: 0px;
             font-size: 14px;
         }
     }
@@ -94,7 +100,7 @@ body::after{
         width: 248px;
         height: 47px;
         justify-content: space-between;
-        margin: 25px auto 25px auto;
+        margin: 24px auto 24px auto;
         padding: 0px 47px;
 
         .insight__span {
