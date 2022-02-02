@@ -56,7 +56,7 @@ body::after{
     max-width: 350px;
     max-height: 375px;
     transform: translate(-50%, -50%);
-    border-radius: 13px;
+    border-radius: 13\px;
     overflow: hidden;
     background-color: $primary-color-white;
     box-shadow: 5px 5px 10px #96969666;
@@ -69,7 +69,8 @@ body::after{
     .user-details{
         span{
             margin-left: 9px;
-            margin-top: 0px;
+            margin-top: 9px;
+            font-size: 14px;
         }
     }
     .bg-pattern-card{
