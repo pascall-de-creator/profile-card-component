@@ -5,7 +5,7 @@
     font-family: Kumbh Sans;
     font-size: 18px;
 }
-p, label{
+p, span{
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 1rem;
@@ -14,7 +14,7 @@ p, label{
 p{
     font-weight: 700;
 }
-label{
+span{
     margin-top: 4px;
     font-weight: 400;
     margin-top: 9px;
@@ -52,7 +52,7 @@ body{
         margin-bottom: 25px;
     }
     .user-details{
-        label{
+        span{
             margin-left: 9px;
             margin-top: 0px;
         }
@@ -81,7 +81,7 @@ body{
         margin: 25px auto 25px auto;
         padding: 0px 47px;
 
-        .insight__label {
+        .insight__span {
             font-size: 11px;
         }
     }
